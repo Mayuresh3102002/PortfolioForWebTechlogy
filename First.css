@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orange;
+}
+.container marquee {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-size: 20px;
+    font-weight: bolder;
+    color:red
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.info p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #45a049;
+}
